@@ -259,3 +259,5 @@ Models: Groq `whisper-large-v3` (speech), `qwen/qwen3.8-27b` (captions, directin
 
 Never commit `.env`, `client_secret.json` or `youtube_token.json`: `.gitignore` keeps them out, and `share.py` makes a zip that
 leaves them out too. Licences of the bundled models and fonts: [assets/NOTICE.md](assets/NOTICE.md).
+
+The code is under the [MIT licence](LICENSE). It covers this code only, not the videos it works with (see [Rights](#8-rights)).
