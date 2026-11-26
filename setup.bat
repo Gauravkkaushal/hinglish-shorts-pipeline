@@ -2,6 +2,8 @@
 rem One-time setup: private Python environment in .venv, all packages, sound effects. Safe to run again.
 cd /d "%~dp0"
 where python >nul 2>nul || (echo Python is missing. Run: winget install Python.Python.3.13   then open a new terminal. & exit /b 1)
+rem an interrupted setup can leave .venv without pip: then it is made again
+if exist .venv\Scripts\python.exe .venv\Scripts\python.exe -m pip --version >nul 2>nul || rmdir /s /q .venv 2>nul
 if not exist .venv python -m venv .venv || exit /b 1
 set "PATH=%~dp0.venv\Scripts;%PATH%"
 python -m pip install --upgrade pip -q
