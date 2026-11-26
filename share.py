@@ -4,7 +4,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-PUBLIC = ["README.md", "LICENSE", "requirements.txt", "setup.bat", "run.bat", "share.py", "creators.txt", ".env.example", ".gitignore",
+PUBLIC = ["README.md", "LICENSE", "PRIVACY.md", "requirements.txt", "setup.bat", "run.bat", "share.py", "creators.txt", ".env.example", ".gitignore",
           "pipeline.py", "fetch_memes.py", "make_demo_assets.py", "test_pipeline.py", "shorts/*.py", "assets/models/*", "assets/fonts/*", "assets/NOTICE.md"]
 
 
