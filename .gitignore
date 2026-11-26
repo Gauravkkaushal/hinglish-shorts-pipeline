@@ -1,0 +1,14 @@
+# secrets: never commit
+.env
+client_secret*.json
+youtube_token.json
+# made on each computer
+.venv/
+__pycache__/
+.pytest_cache/
+jobs/
+out/
+library/
+browser_profile/
+_backup_before_fix/
+*.zip

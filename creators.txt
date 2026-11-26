@@ -1,0 +1,43 @@
+# Whose videos the pipeline uses when you do not pass --creator.
+# One creator per line: @handle, channel link, or name. Text after # is ignored. Add and remove lines freely.
+# [talk: ...]    auto, and viral for talk domains      (several sections: only those whose words are in the domain)
+# [funny: ...]   comedy   (a section is used when one of its words is in --topic)
+# [footage: ...] montage, and viral for visual domains (same)
+# These are other people's videos: get their permission before you publish (README, "Rights").
+
+[talk: standup comedy]
+@ZakirKhan
+@AnubhavSinghBassi
+@raviguptacomedy
+@AakashGupta
+@HarshGujral
+@GauravKapoor
+@aupmanyu              # Abhishek Upmanyu
+@munawar0018           # Munawar Faruqui
+@morepranit            # Pranit More
+@trishapathakcomedy
+
+[talk: podcast interview]
+@rajshamani
+@ThePrakharGuptaXperience
+@ranveerallahbadia
+@unfilteredbysamdish
+@dostcast
+
+[funny: gta game gaming minecraft]
+@TechnoGamerzOfficial
+@TotalGaming093
+@MythPat
+@LiveInsaan
+@DynamoGaming
+@GamerFleet
+
+[footage: gta]
+@RockstarGames
+@IGN
+@GameSpot
+
+[footage: supercar car]
+@TopGear
+@Carfection
+@carwow
